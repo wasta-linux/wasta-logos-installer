@@ -1,3 +1,9 @@
+wasta-logos-installer (0.1.1) bionic; urgency=medium
+
+  * updating installer to Logos 8.8.0.0046
+
+ -- Rik Shaw <rikshaw76@gmail.com>  Mon, 28 Oct 2019 19:20:33 +0300
+
 wasta-logos-installer (0.1.0) bionic; urgency=medium
 
   * initial release
