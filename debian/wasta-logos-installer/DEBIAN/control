@@ -1,18 +1,13 @@
-Source: wasta-logos-installer
+Package: wasta-logos-installer
+Version: 0.1.1
+Architecture: all
+Maintainer: Rik Shaw <rikshaw76@gmail.com>
+Installed-Size: 179787
 Section: utils
 Priority: optional
-Maintainer: Rik Shaw <rikshaw76@gmail.com>
-Build-Depends: debhelper (>= 8.0.0)
-Standards-Version: 3.9.5
 Homepage: https://github.com/wasta-linux/wasta-logos-installer
-
-Package: wasta-logos-installer
-Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Logos Installer
  Bundled Logos installer split into 45M chunks for github compatibility.
  Logos-x86.msi is re-assembled by the postinst script.
- .
  split into chunks: split -d -b 45M Logos-x86.msi Logos-x86-
- .
  merge: cat Logos-x86-* > Logos-x86.msi
