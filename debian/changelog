@@ -1,3 +1,9 @@
+wasta-logos-installer (8.17.0.0014) focal; urgency=medium
+
+  * updating installer to 8.17.0.0014 (final 32-bit version)
+
+ -- Rik Shaw <rikshaw76@gmail.com>  Fri, 30 Oct 2020 09:24:49 +0300
+
 wasta-logos-installer (8.17.0.0011) focal; urgency=medium
 
   * updating installer to 8.17.0.0011
